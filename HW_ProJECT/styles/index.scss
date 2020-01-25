@@ -87,4 +87,25 @@ body{
         font-weight: 700;
         color: #fff;
     }
+    .price-card__price{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 380px;
+        height: 104px;
+        color: #fff;
+        font-size: 55px;
+        font-weight: 700;
+        
+    }
+    .price-card__basic-color{
+        background: #5BB189;;
+    }
+    .price-card__business-color{
+        background: #3A6BA5;
+    }
+    .price-card__website-color{
+        background: #EC632A;
+    }
+    
 }
