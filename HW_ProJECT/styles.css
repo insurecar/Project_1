@@ -170,6 +170,7 @@ body {
   text-transform: uppercase;
   border: none;
   border-radius: 20px;
+  line-height: 17px;
 }
 .price-card .price-card__order-btn-green {
   background: #5BB189;
