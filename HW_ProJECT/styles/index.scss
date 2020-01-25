@@ -177,6 +177,26 @@ body{
         position: absolute;
         left: 22px;
     }
-    
+    &__order-btn{
+        width: 155px;
+        height: 40px;
+        color: #fff;
+        display: block;
+        margin: 42px auto;
+        font-size: 14px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 20px;
+
+        &-green{
+            background: #5BB189;
+        }
+        &-blue{
+            background: #3A6BA5;
+        }
+        &-orange{
+            background: #EC632A;
+        }
+    }
 }
 }

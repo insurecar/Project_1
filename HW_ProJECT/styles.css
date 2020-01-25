@@ -160,5 +160,25 @@ body {
   position: absolute;
   left: 22px;
 }
+.price-card .price-card__order-btn {
+  width: 155px;
+  height: 40px;
+  color: #fff;
+  display: block;
+  margin: 42px auto;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 20px;
+}
+.price-card .price-card__order-btn-green {
+  background: #5BB189;
+}
+.price-card .price-card__order-btn-blue {
+  background: #3A6BA5;
+}
+.price-card .price-card__order-btn-orange {
+  background: #EC632A;
+}
 
 /*# sourceMappingURL=styles.css.map */
