@@ -30,8 +30,16 @@ body {
   position: relative;
   overflow: hidden;
 }
-.price-card__title {
+.price-card .basic {
   width: 100px;
+}
+.price-card .business {
+  width: 163px;
+}
+.price-card .webshop {
+  width: 176px;
+}
+.price-card__title {
   display: flex;
   flex-direction: column;
   align-items: center;
