@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+    .price-tables{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin: 0;
+        padding: 0;
+        width: 1170px;
+        height: 788px; 
+        margin-bottom: 15px;
+    }
+    .price-card{
+        width: 380px;
+        height: 770px;
+        background-color: #334247;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+        &:last-child{
+            margin-bottom: 3px;
+        }
+    }
+    .default-bg{
+        width: 380px;
+        height: 3px;
+        background-color: black;
+    }
