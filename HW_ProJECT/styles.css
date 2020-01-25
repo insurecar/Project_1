@@ -115,7 +115,7 @@ body {
   height: 300px;
   margin: 0;
   padding: 0;
-  margin-top: 42px;
+  margin-top: 40px;
   font-weight: 300;
   position: relative;
 }
@@ -123,6 +123,7 @@ body {
   display: flex;
   justify-content: left;
   align-items: center;
+  line-height: 18px;
   width: 380px;
   height: 50px;
   margin-left: 58px;
