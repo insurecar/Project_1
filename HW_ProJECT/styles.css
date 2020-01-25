@@ -30,15 +30,6 @@ body {
   position: relative;
   overflow: hidden;
 }
-.price-card .basic {
-  width: 100px;
-}
-.price-card .business {
-  width: 165px;
-}
-.price-card .webshop {
-  width: 180px;
-}
 .price-card__title {
   display: flex;
   flex-direction: column;
@@ -63,6 +54,15 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
+}
+.price-card .basic {
+  width: 100px;
+}
+.price-card .business {
+  width: 165px;
+}
+.price-card .webshop {
+  width: 178px;
 }
 .price-card__title-popular {
   right: -30px;

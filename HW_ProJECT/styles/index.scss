@@ -30,16 +30,7 @@ body{
         position: relative;
         overflow: hidden;
 
-        .basic{
-            width: 100px;
-            
-        }
-        .business{
-            width: 165px;
-        }
-        .webshop{
-            width: 180px;
-        }
+        
         &__title{
             display: flex;
             flex-direction: column;
@@ -69,7 +60,16 @@ body{
         padding: 0;
       
     }
-    
+    .basic{
+        width: 100px;
+        
+    }
+    .business{
+        width: 165px;
+    }
+    .webshop{
+        width: 178px;
+    }
     &__title-popular{
    
         right: -30px;
