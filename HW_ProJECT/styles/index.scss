@@ -1,3 +1,4 @@
+@import 'variables.scss';
 *{
     box-sizing: border-box;
   
@@ -103,12 +104,15 @@ body{
     &__basic-color{
         background: #5BB189;;
     }
+
     &__business-color{
         background: #3A6BA5;
     }
+
     &__website-color{
         background: #EC632A;
     }
+
     &__description{
         width: 328px;
         margin: 40px auto 0 auto;
@@ -118,6 +122,7 @@ body{
         color: #fff;
         line-height: 18px;
     }
+
     &__options-list{
         width: 380px;
         height: 300px;
@@ -125,6 +130,7 @@ body{
         padding: 0;
         margin-top: 42px;
         font-weight: 300;
+        position: relative;
        
         &-item{
             display: flex;
@@ -132,18 +138,42 @@ body{
             align-items: center;
             width: 380px;
             height: 50px;
-            margin-left: 60px;
+            margin-left: 58px;
             color: #fff;
             margin: 0;
             padding: 0 60px;
+            position: relative;
 
             &:nth-child(odd){
                 background: #2A3438;
             }
-            // &:nth-child(even){
-            //     background: #1F3D63;
-            // }
+            
         }
     }
+    &__green-checkmark>li::before{
+        content: '';
+        background: url($green-checkmark);
+        width: 15px;
+        height: 13px;
+        position: absolute;
+        left: 22px;
+    }
+    &__blue-checkmark>li::before{
+        content: '';
+        background: url($blue-checkmark);
+        width: 15px;
+        height: 13px;
+        position: absolute;
+        left: 22px;
+    }
+    &__orange-checkmark>li::before{
+        content: '';
+        background: url($orange-checkmark);
+        width: 15px;
+        height: 13px;
+        position: absolute;
+        left: 22px;
+    }
+    
 }
 }
