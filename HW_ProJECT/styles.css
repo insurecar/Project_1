@@ -62,7 +62,8 @@ body {
   width: 165px;
 }
 .price-card .webshop {
-  width: 178px;
+  width: 176px;
+  height: 63px;
 }
 .price-card__title-popular {
   right: -30px;
