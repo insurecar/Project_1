@@ -61,6 +61,7 @@ body {
   transform: rotate(-45deg);
   position: absolute;
   transform: rotate(45deg);
+  font-size: 14px;
   width: 147px;
   height: 25px;
   transform: 45deg;
