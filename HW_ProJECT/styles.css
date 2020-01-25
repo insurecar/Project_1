@@ -27,6 +27,8 @@ body {
   height: 770px;
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  position: relative;
+  overflow: hidden;
 }
 .price-card__title {
   width: 100%;
@@ -43,6 +45,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  display: inline-block;
 }
 .price-card__title-subtitle {
   font-size: 20px;
@@ -50,6 +53,23 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  display: inline-block;
+}
+.price-card__title-popular {
+  right: -30px;
+  top: 30px;
+  transform: rotate(-45deg);
+  position: absolute;
+  transform: rotate(45deg);
+  width: 147px;
+  height: 25px;
+  transform: 45deg;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #DC3F45;
+  font-weight: 700;
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */

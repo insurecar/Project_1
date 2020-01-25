@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+  
     
 }
 body{
@@ -26,6 +27,8 @@ body{
         height: 770px;
         background-color: #334247;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+        position: relative;
+        overflow: hidden;
 
         &__title{
             width: 100%;
@@ -34,6 +37,7 @@ body{
             height: 64px;
             margin: 30px auto 36px auto;
             color: white;
+
     }
     &__title-header{
         font-size: 35px;
@@ -42,6 +46,7 @@ body{
         text-align: center;
         margin: 0;
         padding: 0;
+        display: inline-block;
     }
     &__title-subtitle{
         font-size: 20px;
@@ -49,6 +54,29 @@ body{
         text-align: center;
         margin: 0;
         padding: 0;
+        display: inline-block;
 
+    }
+    // .popular{
+    //     position: relative;
+    //     overflow: hidden;
+    // }
+    &__title-popular{
+   
+    right: -30px;
+    top: 30px;
+    transform: rotate(-45deg);
+        position: absolute;
+        transform: rotate(45deg);
+        
+        width: 147px;
+        height: 25px;
+        transform: 45deg;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #DC3F45;
+        font-weight: 700;
+        color: #fff;
     }
 }
