@@ -98,14 +98,23 @@ body{
         font-weight: 700;
         
     }
-    .price-card__basic-color{
+    .price-card{
+    &__basic-color{
         background: #5BB189;;
     }
-    .price-card__business-color{
+    &__business-color{
         background: #3A6BA5;
     }
-    .price-card__website-color{
+    &__website-color{
         background: #EC632A;
     }
-    
+    &__description{
+        width: 328px;
+        margin: 40px auto 0 auto;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+        color: #fff;
+    }
+}
 }

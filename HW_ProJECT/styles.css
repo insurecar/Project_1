@@ -100,5 +100,13 @@ body {
 .price-card .price-card__website-color {
   background: #EC632A;
 }
+.price-card .price-card__description {
+  width: 328px;
+  margin: 40px auto 0 auto;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+}
 
 /*# sourceMappingURL=styles.css.map */
