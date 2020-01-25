@@ -119,9 +119,6 @@ body {
   font-weight: 300;
   position: relative;
 }
-.price-card .price-card__options-list-orange {
-  margin-top: 37px;
-}
 .price-card .price-card__options-list-item {
   display: flex;
   justify-content: left;
