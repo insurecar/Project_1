@@ -31,9 +31,10 @@ body {
   overflow: hidden;
 }
 .price-card__title {
-  width: 100%;
+  width: 100px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 64px;
   margin: 30px auto 36px auto;
   color: white;
@@ -54,7 +55,6 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  display: inline-block;
 }
 .price-card__title-popular {
   right: -30px;
