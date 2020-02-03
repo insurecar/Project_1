@@ -100,16 +100,15 @@ body{
         margin-top: 38px;
         
     }
-    .price-card{
-    &__basic-color{
+    .basic-color{
         background: #5BB189;;
     }
 
-    &__business-color{
+    .business-color{
         background: #3A6BA5;
     }
 
-    &__website-color{
+    .website-color{
         background: #EC632A;
     }
 
@@ -153,7 +152,7 @@ body{
             
         }
     }
-    &__green-checkmark>li::before{
+    .green-checkmark>li::before{
         content: '';
         background: url($green-checkmark);
         width: 15px;
@@ -161,7 +160,7 @@ body{
         position: absolute;
         left: 22px;
     }
-    &__blue-checkmark>li::before{
+    .blue-checkmark>li::before{
         content: '';
         background: url($blue-checkmark);
         width: 15px;
@@ -169,7 +168,7 @@ body{
         position: absolute;
         left: 22px;
     }
-    &__orange-checkmark>li::before{
+    .orange-checkmark>li::before{
         content: '';
         background: url($orange-checkmark);
         width: 15px;
@@ -189,16 +188,14 @@ body{
         border: none;
         border-radius: 20px;
         line-height: 17px;
-
-        &-green{
-            background: #5BB189;
-        }
-        &-blue{
-            background: #3A6BA5;
-        }
-        &-orange{
-            background: #EC632A;
-        }
     }
 }
+.green{
+    background: #5BB189;
+}
+.blue{
+    background: #3A6BA5;
+}
+.orange{
+    background: #EC632A;
 }
